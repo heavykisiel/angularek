@@ -9,5 +9,12 @@
 
     </li>
 </ul>
+<select name="choice" (change)="changeO($event)">
+    <option value="asc">asc</option>
+    <option value="desc" >desc</option>
+    <option value="none" selected>none</option>
+</select>
+<button (click)="back()">back</button>
+<button (click)="next()">next</button>
 
 </div>
